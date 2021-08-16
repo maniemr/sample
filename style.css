@@ -1,0 +1,24 @@
+html
+{
+	margin: 0;
+	font-size: 10px;
+}
+nav
+{
+	font-size: 2.5rem;
+	display: flex;
+	padding: 2rem 6rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-links ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 0.8rem 1.2rem;
+	position: relative;
+}
+.nav-links ul li a
+{
+	text-decoration: none;
+}
