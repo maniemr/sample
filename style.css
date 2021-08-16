@@ -1,0 +1,139 @@
+*
+{
+	list-style: none;
+	text-decoration: none;
+}
+body
+{
+	margin: 0px;
+	padding: 0;
+	font-size: 20px;	
+}
+.header
+{
+	font-size: 3rem;
+	min-height: 70vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url("background1.jpg");
+	background-position: centre;
+	background-size: cover;
+	position: relative;
+}
+.nav-links
+{
+	flex: 1;
+	text-align: center;
+	padding: 1% 0%;
+}
+nav ul li
+{
+	display: inline-block;
+	padding: 0% 2%;
+}
+.text-box,.row
+{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1,.about h1,footer h3
+{
+	font-size: 4rem;
+}
+.text-box p,footer p
+{
+	margin: 10px 0 40px;
+	line-height: 3rem;
+	font-size: 2rem;
+}
+.hero-btn
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: .3rem solid #fff;
+	padding: 1rem 1rem;
+	background: transparent;
+}
+.about
+{
+	background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url("banner.jpg");
+	background-position: centre;
+	min-height: 60vh;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+}
+.row
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: black;
+}
+.col
+{
+	padding: 1rem 1.5rem;
+	margin: 2rem 0;
+	background-color: #fff3f3;
+	border-radius: 1rem;
+	box-sizing: border-box;
+}
+.col p
+{
+	color: red;
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+.col h1
+{
+	font-size: 3rem;
+}
+.col a
+{
+	text-decoration: none;
+	border: 0.2rem solid black;
+	display: inline-block;
+	margin: 0.5rem;
+	padding: 1rem;
+	background: transparent;
+}
+.col:hover
+{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+}
+.clicks h1
+{
+	font-size: 4rem;
+	margin: 2%;	
+	text-align: center;
+}
+.clicks img
+{
+	width: 90%;
+	margin: 5%;
+}
+footer
+{
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+	background-color: orchid;
+	border-radius: 10px;
+}
+.icons
+{
+	margin-left: 10%;
+	margin-right: 10% ;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
